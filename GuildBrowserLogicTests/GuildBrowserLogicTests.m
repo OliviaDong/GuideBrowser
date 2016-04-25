@@ -1,18 +1,18 @@
 //
-//  GuildBrowserTests.m
-//  GuildBrowser
+//  GuildBrowserLogicTests.m
+//  GuildBrowserLogicTests
 //
-//  Created by Olivia Dong on 2016-04-25.
+//  Created by Olivia Dong on 2016-04-01.
 //  Copyright © 2016 Charlie Fulton. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface GuildBrowserTests : XCTestCase
+@interface GuildBrowserLogicTests : XCTestCase
 
 @end
 
-@implementation GuildBrowserTests
+@implementation GuildBrowserLogicTests
 
 - (void)setUp {
     [super setUp];
