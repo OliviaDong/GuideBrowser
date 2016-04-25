@@ -14,6 +14,8 @@
     NSDictionary *_characterDetailJson;
 }
 
+@property(nonatomic, strong) Character *testGuy;
+
 @end
 
 @implementation CharacterTests
@@ -29,11 +31,14 @@
     id json = [NSJSONSerialization JSONObjectWithData:sampleData options:kNilOptions error:&error];
     XCTAssertNotNil(json, @"invalid test data");
     _characterDetailJson = json;
+    
+    self.testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     _characterDetailJson = nil;
+    _testGuy = nil;
     [super tearDown];
 }
 
