@@ -16,6 +16,7 @@
 		4547890E1CCE9E3400B48FF1 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547890D1CCE9E3400B48FF1 /* CharacterTests.m */; };
 		454789171CCEA21C00B48FF1 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 454789151CCEA21C00B48FF1 /* character.json */; };
 		454789181CCEA21C00B48FF1 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 454789161CCEA21C00B48FF1 /* guild.json */; };
+		4547891A1CCEB51800B48FF1 /* testReport.xml in Resources */ = {isa = PBXBuildFile; fileRef = 454789191CCEB51800B48FF1 /* testReport.xml */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -85,6 +86,7 @@
 		4547890D1CCE9E3400B48FF1 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
 		454789151CCEA21C00B48FF1 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		454789161CCEA21C00B48FF1 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		454789191CCEB51800B48FF1 /* testReport.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testReport.xml; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -208,6 +210,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				454789191CCEB51800B48FF1 /* testReport.xml */,
 				454789141CCEA21C00B48FF1 /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
@@ -464,6 +467,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4547891A1CCEB51800B48FF1 /* testReport.xml in Resources */,
 				454789171CCEA21C00B48FF1 /* character.json in Resources */,
 				454789181CCEA21C00B48FF1 /* guild.json in Resources */,
 			);
