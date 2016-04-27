@@ -59,7 +59,7 @@
     XCTAssertEqualObjects(_testGuy.achievementPoints, @3130, @"achievement points is wrong");
     XCTAssertEqualObjects(_testGuy.level,@85, @"level is wrong");
     
-    XCTAssertEqualObjects(_testGuy.classType, @"Warrior", @"class type is wrong");
+    XCTAssertEqualObjects(_testGuy.classType, @"Warriors", @"class type is wrong");  //Warrior
     XCTAssertEqualObjects(_testGuy.race, @"Human", @"race is wrong");
     XCTAssertEqualObjects(_testGuy.gender, @"Male", @"gener is wrong");
     XCTAssertEqualObjects(_testGuy.averageItemLevel, @379, @"avg item level is wrong");
