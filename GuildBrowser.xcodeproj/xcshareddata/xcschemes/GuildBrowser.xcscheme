@@ -96,6 +96,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "GuildBrowser1.1"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
