@@ -701,14 +701,14 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Azzimov Mobile Inc. (6837YVF879)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Olivia Dong (V326YJ3NX7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azzimov.FeatureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "30cf4508-af19-457f-ab48-4a901c41d43f";
+				PROVISIONING_PROFILE = "4295b948-3d58-47c9-b458-92e4449e6602";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -716,14 +716,14 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Azzimov Mobile Inc. (6837YVF879)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Olivia Dong (V326YJ3NX7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azzimov.FeatureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "30cf4508-af19-457f-ab48-4a901c41d43f";
+				PROVISIONING_PROFILE = "4295b948-3d58-47c9-b458-92e4449e6602";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
