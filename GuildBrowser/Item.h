@@ -27,6 +27,8 @@
 
 - (NSString*)iconUrl;
 
+//- (void)fun;
+
 @end
 
 /*

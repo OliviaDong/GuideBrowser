@@ -40,4 +40,6 @@
     return [url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 }
 
+// - (void)fun{}
+
 @end
